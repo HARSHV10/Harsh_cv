@@ -16,7 +16,7 @@ export default function ContactMe(){
        <a href='https://github.com/HARSHV10'>
        <GitHubIcon sx={{ fontSize: 70,margin:10}}/>
        </a>
-       <a href='https://www.linkedin.com/harsh-vishwakarma-591049229'>
+       <a href='https://www.linkedin.com/in/harsh-vishwakarma-591049229'>
        <LinkedInIcon sx={{ fontSize: 70,margin:10}}/>
        </a>
        <a href='https://twitter.com/HarshV_25'>
