@@ -1,0 +1,16 @@
+.navbar{
+    padding: 20px 0px 30px 0px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    font-size: 2rem;
+}
+
+.borderbg{
+    background: #2600ff00;
+    padding: 10px;
+    border-radius: 10px;
+}
+.borderbg:hover{
+    background-color: rgba(0, 36, 242, 0.571);
+}
