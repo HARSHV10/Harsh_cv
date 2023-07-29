@@ -1,16 +1,7 @@
-.card-layout{
+.Projects{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
+
 }
-
-.Projects{
-    margin-top: 2rem;
-    font-size: 7rem;
-    text-align: left;
-    color: #1e6fd9;
-    font-weight: bold;
-}
-
-

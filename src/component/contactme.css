@@ -1,10 +1,14 @@
-.Heading_Contact{
-    font-size: 8rem;
-    text-align: left;
-    color: #1e6fd9;
-    font-weight: bolder;
+.contactMe{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px 0 20px 0;
+
 }
-.SubHeading_Contact{
-    font-size: 2.5rem;
-    text-align: left;
+
+.contact{
+    padding: 30px;
+    margin: 50px;
+
+    font-size: 70px;
 }

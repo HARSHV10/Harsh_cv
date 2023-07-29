@@ -1,30 +1,33 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import './App.css'
-import Landing from './component/landing'
-import Project from './component/project'
-import ContactMe from './component/contactme'
-import logo from './media/giphy.webp'
+import './App.css';
+import Intro from './component/intro';
+import Education from './component/education';
+import workExp from './component/workExp';
+import Skills from './component/skills';
+import Projects from './component/projects';
+import Contact from './component/contact';
+import Navbar from './component/navbar';
+import './pagedesign.css'
+
 
 function App() {
-  const [count, setCount] = useState(0)
 
+  // <workExp/>
+  // <Navbar/>
   return (
     <div className="App">
-    <div className='top'>
-    <a style={{fontSize:"1.5rem"}} href="#Projects">Projects</a>
-    <a style={{fontSize:"1.5rem"}} href="#ContactMe">Contact Me</a>
+    <Navbar/>
+    <Intro/>
+    <div className='cover'>
+    <Education/>
     </div>
-    <Landing/>
-    <Project/>
-    <ContactMe/>  
-
-    <span className='easteregg'>{count}</span> 
-    <button onClick={()=>{
-      setCount(count+1);
-    }
-    }>Easter egg</button> 
+    <Projects/>
+    <div className="cover">
+    <Skills/>
+    </div>
+    <Contact/>
     </div>
   )
 }
