@@ -1,5 +1,6 @@
 import React from 'react';
 import "./intro.css"
+import logo from '../assets/my_image.gif'
 import GitHubIcon from '@mui/icons-material/GitHub';
 import { GitHub, LinkRounded, LinkedIn, Mail, Twitter } from '@mui/icons-material';
 export default function Intro(){
@@ -8,8 +9,7 @@ export default function Intro(){
         
 <div className='introImg'>
 
-<img src="">
-</img>
+<img></img>
    </div>
         <div className='introClass'>
         <div className='introText'>
