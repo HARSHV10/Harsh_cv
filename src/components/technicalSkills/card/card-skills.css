@@ -1,0 +1,81 @@
+.outer_card{
+    display: flex;
+    border-radius: 10px;
+    flex-direction: row;
+    background-color: #14171A;
+    padding-right: 10px;
+    width: 40vw;
+    margin: 10px;
+    color: white;
+    align-items: center;
+    overflow: hidden;
+    border: solid rgba(255, 255, 255, 0.239);
+    border-width: 1px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    .outer_card{
+        width: auto;
+    }
+}
+
+.skills_img{
+    height: 75%;
+    width: 75%;
+    min-width: 50px;
+    min-height: 50px;
+    /* scale:0.75; */
+    /* background-color: aliceblue; */
+}
+
+.inner-div{
+    /* background-color: #0080ff; */
+    display: flex;
+    align-items:center;
+    /* justify-content: center; */
+    width: 50%;
+}
+
+
+
+.card_tech{
+    /* background-color: white; */
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    width: 100%;
+    /* margin: 20px; */
+    /* padding: 20px; */
+}
+
+.card-title{
+    padding-bottom: 10px;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+
+.about-skill{
+    padding-bottom: 10px;
+
+}
+
+.skill-lv-outer{
+    width: 100%;
+    background-color: rgba(0, 0, 255, 0.3);
+    overflow: hidden;
+    border-radius: 10px;
+    border: solid rgba(255, 255, 255, 0.239);
+    border-width: 1px;
+
+}
+
+
+.skill-lv{
+    width: 50%;
+    border-radius: 10px;
+    height: 10px;
+    background-color: blue;
+}

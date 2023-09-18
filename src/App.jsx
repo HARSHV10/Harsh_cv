@@ -1,33 +1,26 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
+import github from './assets/github.svg'
 import viteLogo from '/vite.svg'
-import './App.css';
-import Intro from './component/intro';
-import Education from './component/education';
-import workExp from './component/workExp';
-import Skills from './component/skills';
-import Projects from './component/projects';
-import Contact from './component/contact';
-import Navbar from './component/navbar';
-import './pagedesign.css'
-
+import './App.css'
+import Heading from './components/heading/heading'
+import Project from './components/Project/project'
+import TechincalSkills from './components/technicalSkills/technicalSills'
+import ContactMe from './components/ContactMe/ContactMe'
 
 function App() {
 
-  // <workExp/>
-  // <Navbar/>
   return (
-    <div className="App">
-    <Navbar/>
-    <Intro/>
-    <div className='cover'>
-    <Education/>
+    <div>
+    <div className="resume">
+    <a href="https://docs.google.com/document/d/17__dKHvBm7KeiLAluGTJf672aV-gGRew5s9OtuOu4mM/edit?usp=sharing">
+    <img className="img_resume" src={"https://cdn-icons-png.flaticon.com/128/3135/3135692.png"}></img> 
+    </a>
     </div>
-    <Projects/>
-    <div className="cover">
-    <Skills/>
-    </div>
-    <Contact/>
+    <Heading/>
+    <Project/>
+    <TechincalSkills/>
+    <ContactMe/>
     </div>
   )
 }

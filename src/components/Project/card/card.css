@@ -1,0 +1,66 @@
+.outer-area{
+    display: flex;
+    border-radius: 10px;
+    flex-direction: row;
+    background-color: #14171A;
+    width: 40vw;
+    padding-right: 10px;
+    margin: 10px;
+    color: white;
+    align-items: center;
+    overflow: hidden;
+    border: solid rgba(255, 255, 255, 0.239);
+    border-width: 1px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@media (max-width: 768px) {
+    .outer-area{
+        /* background-color: red; */
+        width: auto;
+    }
+}
+
+
+.project-image{
+    width: 70%;
+    height: 70%;
+    min-width: 50px;
+    min-height: 50px;
+    padding-right: 10px;
+}
+.inner-div-project{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    padding-right: 10px;
+    /* background-color: aliceblue; */
+}
+
+.card-area{
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    width: 100%;
+}
+
+.card-heading{
+    padding-bottom: 10px;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.card-desc{
+    padding-bottom:20px;
+}
+
+.teacStackLable{
+    font-weight: bold;
+    background-color:#1da0f2c7;
+    border: solid rgba(255, 255, 255, 0.239);
+    border-width: 1px;
+    padding: 3px;
+    border-radius: 5px;
+}
