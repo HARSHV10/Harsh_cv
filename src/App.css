@@ -1,3 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hello{
+    z-index: 100;
+}
+
 .resume{
     position:fixed;
     color:white;
@@ -7,7 +15,7 @@
     width:70px;
     height:70px;
     animation:resume_scroll 1s infinite ;
-}
+} 
 
 @keyframes resume_scroll  {
     0%{

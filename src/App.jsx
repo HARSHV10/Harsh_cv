@@ -6,21 +6,37 @@ import Heading from './components/heading/heading'
 import Project from './components/Project/project'
 import TechincalSkills from './components/technicalSkills/technicalSills'
 import ContactMe from './components/ContactMe/ContactMe'
+import Test from './test'
+// import { DotBackgroundDemo } from './DotBackGroundDemo'
+import { GridBackgroundDemo } from './DotBackGroundDemo'
+import { VortexDemoSecond } from './vertexDemo';
+// import { TextGenerateEffectDemo } from '../typewritterdemo'
+import { TextGenerateEffect } from './ui/typewritterEffect'
 
+// document.documentElement.classList.add('dark')
 function App() {
-
+  
+  const words = `Oxygen gets you high. In a catastrophic emergency, we're taking giant, panicked breaths. Suddenly you become euphoric, docile. You accept your fate. It's all right here. Emergency water landing, six hundred miles an hour. Blank faces, calm as Hindu cows
+`;
+    
+  // <Heading/>
   return (
     <div>
+    <GridBackgroundDemo/>
+    <VortexDemoSecond/>
+    
+
     <div className="resume">
     <a href="https://docs.google.com/document/d/17__dKHvBm7KeiLAluGTJf672aV-gGRew5s9OtuOu4mM/edit?usp=sharing">
     <img className="img_resume" src={"https://cdn-icons-png.flaticon.com/128/3135/3135692.png"}></img> 
     </a>
     </div>
-    <Heading/>
     <Project/>
     <TechincalSkills/>
-    <ContactMe/>
-    </div>
+    <ContactMe/> 
+    </div>  
+  
+
   )
 }
 
