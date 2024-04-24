@@ -27,7 +27,7 @@ function App() {
     
 
     <div className="resume">
-    <a href="https://docs.google.com/document/d/17__dKHvBm7KeiLAluGTJf672aV-gGRew5s9OtuOu4mM/edit?usp=sharing">
+    <a href="https://drive.google.com/file/d/1TPU-l1w3dtwLK6ENB9K3Mlw5mWpgBZEA/view?usp=sharing">
     <img className="img_resume" src={"https://cdn-icons-png.flaticon.com/128/3135/3135692.png"}></img> 
     </a>
     </div>

@@ -22,7 +22,7 @@ const data =[
 export default function TechincalSkills(){
     return (
         <div>
-        <h1 className='project-heading'>|Project</h1>
+        <h1 className='project-heading'>|Technical Skills</h1>
         <hr></hr>
         <div className='technical-skills'>
         <div className='card-tech-area'>
