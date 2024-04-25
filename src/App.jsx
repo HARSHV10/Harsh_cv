@@ -6,6 +6,7 @@ import Heading from './components/heading/heading'
 import Project from './components/Project/project'
 import TechincalSkills from './components/technicalSkills/technicalSills'
 import ContactMe from './components/ContactMe/ContactMe'
+import samplePDF from '../resume.pdf'
 //import Test from './test'
 // import { DotBackgroundDemo } from './DotBackGroundDemo'
 import { GridBackgroundDemo } from './DotBackGroundDemo'
@@ -26,8 +27,8 @@ function App() {
     <VortexDemoSecond/>
     
 
-    <a >
-    <div className="resume" href="https://drive.google.com/file/d/1NCViJrUOHVY8uG8pSwsksU3KpiL-qcUQ/view?usp=sharing">
+    <a href={samplePDF} target="_blank">
+    <div className="resume" >
     <img className="img_resume" src={"https://cdn-icons-png.flaticon.com/128/3135/3135692.png"}></img> 
     </div>
     </a>

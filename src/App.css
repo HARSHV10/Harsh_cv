@@ -10,7 +10,7 @@
     position:fixed;
     color:white;
     right:50px;
-    z-index:1;
+    z-index:100;
     bottom: 50px;
     width:70px;
     height:70px;
