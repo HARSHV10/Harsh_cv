@@ -26,8 +26,8 @@ function App() {
     <VortexDemoSecond/>
     
 
-    <a href="https://drive.google.com/file/d/1NCViJrUOHVY8uG8pSwsksU3KpiL-qcUQ/view?usp=sharing">
-    <div className="resume">
+    <a >
+    <div className="resume" href="https://drive.google.com/file/d/1NCViJrUOHVY8uG8pSwsksU3KpiL-qcUQ/view?usp=sharing">
     <img className="img_resume" src={"https://cdn-icons-png.flaticon.com/128/3135/3135692.png"}></img> 
     </div>
     </a>
