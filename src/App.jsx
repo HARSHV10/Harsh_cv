@@ -6,7 +6,7 @@ import Heading from './components/heading/heading'
 import Project from './components/Project/project'
 import TechincalSkills from './components/technicalSkills/technicalSills'
 import ContactMe from './components/ContactMe/ContactMe'
-import Test from './test'
+//import Test from './test'
 // import { DotBackgroundDemo } from './DotBackGroundDemo'
 import { GridBackgroundDemo } from './DotBackGroundDemo'
 import { VortexDemoSecond } from './vertexDemo';
