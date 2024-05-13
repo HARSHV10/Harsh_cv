@@ -15,7 +15,7 @@ const data =[
     {title:"React",desc:"Transforming web development with modular brilliance." ,lev:"90%",icon:react},
     {title:"NodeJs",desc:"Revolutionizing web development with simplicity and scalability" ,lev:"80%",icon:nodejs},
     {title:"Java",desc:"secret wepon in arsenal" ,lev:"60%",icon:java},
-    {title:"MySql",desc:"saap paal rakhe hai saanp" ,lev:"60%",icon:"https://cdn-icons-png.flaticon.com/128/5968/5968363.png"}
+    {title:"MySql",desc:"language for databases" ,lev:"60%",icon:"https://cdn-icons-png.flaticon.com/128/5968/5968363.png"}
     
 ]
 
