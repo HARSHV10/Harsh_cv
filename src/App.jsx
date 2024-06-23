@@ -21,9 +21,9 @@ function App() {
 `;
     
   // <Heading/>
+  //  <GridBackgroundDemo/>
   return (
     <div>
-    <GridBackgroundDemo/>
     <VortexDemoSecond/>
     
 
